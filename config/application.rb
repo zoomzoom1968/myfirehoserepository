@@ -16,6 +16,6 @@ module Myapp
     config.assets.paths << "{Rails.root}/appp/assets/fonts"
     
     #Precompile additional assets
-    config.assets.precomplile += %w( .svg .eot .woff .tff)
+    config.assets.precompile += %w( .svg .eot .woff .tff)
   end
 end
