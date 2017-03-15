@@ -50,6 +50,7 @@ group :development do
 end
 
   gem 'bootstrap', '~> 4.0.0.alpha6'
+  gem 'simple_form'
   
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
