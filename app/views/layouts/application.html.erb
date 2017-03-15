@@ -11,6 +11,7 @@
   <body>
     <header class="row">
       <div class="col-3">
+        <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
           Begin 
@@ -19,6 +20,7 @@
           <br />
           with a smile
         </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
         Spurting out unsolicited advice about entrepreneurship since 2016
@@ -41,7 +43,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-           <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+           <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
             Proudly hacked in Concord, CA by <a href="http://thefirehoseproject.com">Jet Collado</a><br/>
